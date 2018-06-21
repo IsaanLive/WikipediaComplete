@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:myapp="http://schemas.android.com/apk/res/com.aseanmobile.wikipediamobile"
+	android:layout_width="fill_parent"
+	android:orientation="vertical"
+	android:layout_height="fill_parent"
+	android:background="@color/black">
+	<com.admob.android.ads.AdView
+		android:id="@+id/ad"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		myapp:backgroundColor="#000000"
+		myapp:primaryTextColor="#FFFFFF"
+		myapp:secondaryTextColor="#CCCCCC" />
+	<TableLayout
+		android:id="@+id/audio_sear_holder"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:stretchColumns="0"
+		android:layout_gravity="center"
+		android:gravity="center"
+		android:background="@color/black">
+		<TableRow
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center_vertical|center_horizontal"
+			android:gravity="center_vertical|center_horizontal"
+			android:paddingLeft="5dp"
+			android:layout_marginTop="3dp"
+			android:layout_marginBottom="3dp"
+			android:paddingRight="5dp"
+			android:background="@drawable/audio_search_bg">
+			<EditText
+				android:id="@+id/audio_sear_edit_text"
+				android:layout_width="fill_parent"
+				android:layout_marginTop="3dp"
+				android:hint="Search"
+				android:windowSoftInputMode="stateVisible|adjustResize"
+				android:background="@color/white"
+				android:layout_marginBottom="3dp"
+				android:layout_marginLeft="10dp"
+				android:layout_height="30dp" />
+			<ImageButton
+				android:id="@+id/audio_sear_btn"
+				android:layout_marginTop="3dp"
+				android:background="@color/white"
+				android:src="@drawable/ic_search"
+				android:scaleType="fitXY"
+				android:layout_marginBottom="3dp"
+				android:layout_marginRight="10dp"
+				android:layout_height="30dp"
+				android:layout_width="34dp" />
+		</TableRow>
+	</TableLayout>
+	<ListView
+		android:id="@+id/book_mark_list_view"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:divider="@color/black" />
+	"
+</LinearLayout>

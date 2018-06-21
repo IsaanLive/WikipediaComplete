@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	<item
+		android:id="@+id/menu_book_marks"
+		android:icon="@drawable/bookmark_icon"
+		android:title="Bookmark List" />
+	<item
+		android:id="@+id/menu_add_to_book_mark"
+		android:icon="@drawable/bok_no"
+		android:title="Mark" />
+	<item
+		android:id="@+id/menu_more"
+		android:icon="@drawable/setting_icon"
+		android:title="More" />
+	<item
+		android:id="@+id/menu_refresh"
+		android:icon="@drawable/men_refresh"
+		android:title="Refresh" />
+	<item
+		android:id="@+id/menu_home"
+		android:icon="@drawable/men_home"
+		android:title="Save" />
+	<item
+		android:id="@+id/menu_exit"
+		android:icon="@drawable/menu_exit"
+		android:title="Exit" />
+			
+</menu>

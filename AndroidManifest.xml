@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	package="com.aseanmobile.wikipediamobile"
+	android:versionCode="32" android:versionName="3.2">
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+	<application
+		android:icon="@drawable/icon"
+		android:label="@string/app_name">
+		<activity
+			android:name=".SplashScreen"
+			android:label="@string/app_name"
+			android:screenOrientation="portrait">
+			<intent-filter>
+				<action
+					android:name="android.intent.action.MAIN" />
+				<category
+					android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+		<activity
+			android:name=".AboutUsActivity"
+			android:configChanges="orientation|keyboard|keyboardHidden"
+			android:label="@string/about_us_title">
+		</activity>
+		<activity
+			android:name=".ImageViewer"
+			android:configChanges="orientation|keyboard|keyboardHidden"
+			android:theme="@android:style/Theme.Translucent.NoTitleBar">
+		</activity>
+		<activity
+			android:name=".MapViewer"
+			android:configChanges="orientation|keyboard|keyboardHidden"
+			android:theme="@android:style/Theme.Translucent.NoTitleBar">
+		</activity>
+		<activity
+			android:name=".WebViewer"
+			android:configChanges="orientation|keyboard|keyboardHidden"
+			android:theme="@android:style/Theme.Light.NoTitleBar">
+		</activity>
+		<activity
+			android:name=".Main"
+			android:configChanges="orientation|keyboard|keyboardHidden"
+			android:theme="@android:style/Theme.Translucent.NoTitleBar">
+		</activity>
+		<activity
+			android:name=".MoreActivity"
+			android:screenOrientation="sensor"
+			android:label="Settings"
+			android:configChanges="orientation|keyboard|keyboardHidden">
+		</activity>
+		<activity
+			android:name=".LanguageChooseAtivity"
+			android:label="Please select language"
+			android:screenOrientation="sensor"
+			android:configChanges="orientation|keyboard|keyboardHidden"
+			android:theme="@android:style/Theme.Dialog">
+		</activity>
+		<activity
+			android:name=".BookMarkActivity"
+			android:configChanges="orientation|keyboard|keyboardHidden"
+			android:label="Bookmarks" />
+		<activity
+			android:name=".SearchResultActivity"
+			android:configChanges="orientation|keyboard|keyboardHidden"
+			android:label="Search Results" />
+		<activity
+			android:name="CustomeWebViewActivity"
+			android:configChanges="orientation|keyboard|keyboardHidden"
+			android:label="WEB BROWSER"
+			android:screenOrientation="sensor"
+				android:theme="@android:style/Theme.Light.NoTitleBar" />
+		<activity
+			android:name="listhtml"
+			android:configChanges="orientation|keyboard|keyboardHidden"
+			android:label="Saved files"
+			android:screenOrientation="sensor"
+				 />
+		<uses-library
+			android:name="com.google.android.maps" />
+		<meta-data
+			android:value="a14dc6117b5f909"
+			android:name="ADMOB_PUBLISHER_ID" />
+	</application>
+	<uses-sdk
+		android:maxSdkVersion="11"
+		android:targetSdkVersion="8" android:minSdkVersion="3"/>
+	
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+	<uses-permission
+		android:name="android.permission.INTERNET" />
+	<uses-permission
+		android:name="android.permission.ACCESS_NETWORK_STATE" />
+	<supports-screens
+		android:largeScreens="true"
+		android:normalScreens="true"
+		android:smallScreens="true"
+		android:anyDensity="true"
+		android:resizeable="true" />
+</manifest>

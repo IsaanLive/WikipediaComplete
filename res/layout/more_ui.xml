@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:myapp="http://schemas.android.com/apk/res/com.aseanmobile.wikipediamobile"
+	android:layout_width="fill_parent"
+	android:orientation="vertical"
+	android:layout_height="fill_parent"
+	android:background="@color/black">
+	<com.admob.android.ads.AdView
+		android:id="@+id/ad"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		myapp:backgroundColor="#000000"
+		myapp:primaryTextColor="#FFFFFF"
+		myapp:secondaryTextColor="#CCCCCC" />
+	<ListView
+		android:id="@+id/more_option_list"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:background="@color/black"
+		android:divider="@color/black" />
+</LinearLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+	text="Wikipedia Mobile">
+	<item
+		text="Chose Language"
+		comment="Current : "
+		icon="chose_list" />
+	<item
+		text="About this Application"
+		comment="EuroAsia Communications Pte Ltd"
+		icon="introduction" />
+	<item
+		text="Join us on Facebook"
+		comment="Application Announcements"
+		icon="facebook"
+		url="http://m.facebook.com/pages/Asean-Mobile-Applications/272636280117" />
+	<item
+		text="GPS/GIS Map"
+		icon="geo"
+		comment="Compatible with Android 1.6+"
+		url="http://aseanmobile.mobi/gismaps/gismaps.html" />
+</menu>

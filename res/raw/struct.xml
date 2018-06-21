@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu text="Wikipedia Mobile">
+	<item text="English" comment="WikiMobile in English" icon="england" url="http://en.m.wikipedia.org/"/>
+	<item text="Deutsch" comment="WikiMobile in German" icon="germany" url="http://de.m.wikipedia.org/"/>
+	<item text="Dansk" comment="WikiMobile in Danish" icon="denmark" url="http://da.m.wikipedia.org/"/>
+	<item text="Français" comment="WikiMobile in French" icon="france" url="http://fr.m.wikipedia.org/"/>
+	<item text="Español" comment="WikiMobile in Spanish" icon="spain" url="http://es.m.wikipedia.org/"/>
+	<item text="Português" comment="WikiMobile in Portuguese" icon="portugal" url="http://pt.m.wikipedia.org/"/>
+	<item text="Nederlands" comment="WikiMobile in Dutch" icon="netherlands" url="http://nl.m.wikipedia.org/"/>
+	<item text="Svenska" comment="WikiMobile in Swedish" icon="sweden" url="http://sv.m.wikipedia.org/"/>
+	<item text="Polski" comment="WikiMobile in Polish" icon="poland" url="http://pl.m.wikipedia.org/"/>
+	<item text="Italiano" comment="WikiMobile in Italian" icon="italy" url="http://it.m.wikipedia.org/"/>
+	<item text="Indonesia" comment="WikiMobile in Indonesian" icon="indonesia" url="http://id.m.wikipedia.org/"/>
+	<item text="中文" comment="WikiMobile in Simplified Chinese" icon="china" url="http://zh.m.wikipedia.org/"/>
+	<item text="한국어" comment="WikiMobile in Korean" icon="koreasouth" url="http://ko.m.wikipedia.org/"/>
+	<item text="Tiếng Việt" comment="WikiMobile in Vietnamese" icon="vietnam" url="http://vi.m.wikipedia.org/"/>	
+</menu>

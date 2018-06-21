@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >        
+	
+	<com.google.android.maps.MapView
+        android:id="@+id/mapview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:clickable="true"        
+        
+        android:apiKey="0vxnYo-dIzDtv-YXXa6Ti0-Qf8X0OCQ7KawNR3Q"        
+    />
+<!--    android:apiKey="08fqhAtj6GrW-h8zVm18NsYG7F6FvhE1fmjgg-Q"    -->
+
+    <!-- DEBUG KEY-->
+    <!-- for MD5 fingerprint 17:DE:FC:70:5A:F4:EA:97:76:41:5A:C6:E5:3B:84:21 -->
+    <!-- android:apiKey="08fqhAtj6GrW-h8zVm18NsYG7F6FvhE1fmjgg-Q" -->
+        
+    <!-- RELEASE KEY-->
+    <!-- android:apiKey="08fqhAtj6GrW-h8zVm18NsYG7F6FvhE1fmjgg-Q" -->
+    
+    <LinearLayout
+	    android:id="@+id/zoomview"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignBottom="@id/mapview"
+	    android:layout_centerHorizontal="true"
+	/>
+	    
+</LinearLayout>

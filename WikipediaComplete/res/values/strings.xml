@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string
+		name="app_name">WikipediaMobile</string>
+	<string
+		name="about_us_title">About this Application</string>
+</resources>

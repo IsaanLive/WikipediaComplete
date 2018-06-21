@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:myapp="http://schemas.android.com/apk/res/com.aseanmobile.wikipediamobile"
+	
+	android:orientation="vertical"
+	android:layout_height="fill_parent"
+	android:layout_width="fill_parent"
+	android:background="@color/white">
+	
+
+	
+	    <ProgressBar
+		android:layout_width="fill_parent"
+		android:layout_height="5dp"
+		android:layout_gravity="center_vertical"
+		android:id="@+id/top_progress_bar"
+		style="@android:style/Widget.ProgressBar.Horizontal"
+		android:visibility="gone" />
+
+	    <ScrollView
+	        android:id="@+id/scrollView1"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content" >
+
+	        <LinearLayout
+	            android:id="@+id/linearLayout1"
+	            android:layout_width="fill_parent"
+	            android:layout_height="fill_parent" 
+	            android:orientation="vertical">
+	        
+
+	<RelativeLayout
+		android:orientation="horizontal"
+		android:layout_width="fill_parent"
+		android:gravity="center_vertical"
+		android:layout_height="wrap_content"
+		android:background="@color/white"
+		android:paddingTop="3dp"
+		android:paddingBottom="3dp">
+		<ImageButton
+			android:id="@+id/top_header_btn_favorite"
+			android:scaleType="fitCenter"
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:src="@drawable/button_favorite"
+			android:background="@drawable/button_border_effect"
+			android:layout_alignParentLeft="true"
+			android:layout_marginLeft="2dp" />
+		<ImageButton
+			android:id="@+id/top_header_btn_search"
+			android:scaleType="fitCenter"
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:src="@drawable/button_search"
+			android:background="@drawable/button_border_effect"
+			android:layout_alignParentRight="true"
+			android:layout_marginRight="2dp" />
+		<EditText
+			android:id="@+id/top_header_search_txt"
+			android:layout_width="wrap_content"
+			android:hint="Search"
+			android:windowSoftInputMode="stateVisible|adjustResize"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="3dp"
+			android:layout_marginRight="3dp"
+			android:layout_gravity="center_vertical"
+			android:layout_marginTop="2dp"
+			android:singleLine="true"
+			android:layout_toLeftOf="@id/top_header_btn_search"
+			android:layout_toRightOf="@id/top_header_btn_favorite" />
+	</RelativeLayout>
+	<com.admob.android.ads.AdView
+		android:id="@+id/ad"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		myapp:backgroundColor="@color/white"
+		myapp:primaryTextColor="#FFFFFF"
+		myapp:secondaryTextColor="#CCCCCC"
+		android:layout_marginLeft="1dp"
+		android:layout_marginRight="1dp" />
+	<WebView
+		android:id="@+id/cus_webview"
+		android:background="#FF000000"
+		android:adjustViewBounds="true"
+		android:layout_weight="1"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent" />
+	</LinearLayout>
+
+	    </ScrollView>
+</LinearLayout>
